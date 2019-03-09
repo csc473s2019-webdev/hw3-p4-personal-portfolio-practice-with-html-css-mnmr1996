@@ -1,8 +1,12 @@
 body {
   background: #333333;
+  text-align: center;
 }
 header {
+  display: inline-block;
   background: purple;
+  text-align: center;
+  width: 90%;
 }
 nav ul {
   padding: 0;
@@ -15,6 +19,7 @@ nav li {
   margin-left: 70px;
   padding: 20px;
   text-transform: uppercase;
+  align-items: center;
 }
 
 nav a {
@@ -24,4 +29,40 @@ nav a {
 
 nav a:hover {
   color: black;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+nav ul .logo {
+  float: left;
+}
+
+.project-title {
+  list-style: none;
+}
+
+@media (min-width: 1000px) {
+  header {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1400px) {
+  header {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1600px) {
+  header {
+    width: 50%;
+  }
 }
