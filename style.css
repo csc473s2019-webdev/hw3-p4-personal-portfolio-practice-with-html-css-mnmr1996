@@ -1,15 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #333333;
   text-align: center;
 }
 header {
+  position: fixed;
   display: inline-block;
   background: purple;
   text-align: center;
   width: 90%;
 }
-nav ul {
+
+nav {
   top: 0;
+}
+
+nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -18,9 +28,8 @@ ul {
   list-style: none;
 }
 .welcome-section {
-  min-height: 100%;
-  padding-top: 50%;
-  padding-bottom: 50%;
+  min-height: 55vh;
+  padding-top: 45vh;
 }
 
 nav li {
